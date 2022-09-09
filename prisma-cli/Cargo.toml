@@ -8,3 +8,7 @@ prisma-client-rust-cli = { features = [
   "sqlite-create-many",
   # "rspc",
 ], path = "../cli" }
+
+[[bin]]
+name = "prisma-cli"
+path = "src/bin/prisma.rs"
